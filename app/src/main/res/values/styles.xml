@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Light application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">#ffffff</item>
+        <item name="equal_btn_backgroundColor">#F17173</item>
+        <item name="equal_btn_textColor">#911710</item>
+        <item name="operator_btns_backgroungColor">#B9DCD2</item>
+        <item name="operator_btns_textColor">#00574B</item>
+        <item name="number_btns_backgroundColor">#EEEAEA</item>
+        <item name="number_btns_textColor">#000000</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <!--Dracula/dark theme-->
+    <style name="DraculaTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">#000000</item>
+        <item name="equal_btn_backgroundColor">#A2A5A4</item>
+        <item name="equal_btn_textColor">#ffffff</item>
+        <item name="operator_btns_backgroungColor">#585456</item>
+        <item name="operator_btns_textColor">#ffffff</item>
+        <item name="number_btns_backgroundColor">#000000</item>
+        <item name="number_btns_textColor">#A2A5A4</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+    
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+</resources>

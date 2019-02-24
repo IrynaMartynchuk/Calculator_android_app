@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="style">
+        <attr name="backgroundColor" format="color" />
+        <attr name="equal_btn_backgroundColor" format="color"/>
+        <attr name="equal_btn_textColor" format="color"/>
+        <attr name="operator_btns_backgroungColor" format="color"/>
+        <attr name="operator_btns_textColor" format="color"/>
+        <attr name="number_btns_backgroundColor" format="color"/>
+        <attr name="number_btns_textColor" format="color"/>
+    </declare-styleable>
+</resources>

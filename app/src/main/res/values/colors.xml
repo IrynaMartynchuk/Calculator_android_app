@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="equals_btn">#FAD3D1</color>
+    <color name="operator_btns">#D1FAD7</color>
+    <color name="number_btns">#EEEAEA</color>
+    <color name="equals_text">#911710</color>
+</resources>

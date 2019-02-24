@@ -1,0 +1,19 @@
+As it was written in assignment description my solution includes basic functions of
+calculator: -, +, x, /; added backspace button and AC button to clear the screen.
+Also, I added possibility to count percentage. I thought that it will improve usability if user
+can calculate multiple operations at a time and see intermediate result, something like “2+10x200/34-10%”.
+Regarding UI I made color coding, you can see that all operator buttons have green(mint) color, equals
+button has red color and all number and decimal buttons have grey color. Many apps have light and dark mode,
+I personally prefer Dracula/dark mode in all apps and programs that I use, that’s why I decided to
+implement dark mode in calculator app.
+I feel proud that I implemented multiple operations functionality, and added percentage calculation,
+I tried to test all possible variations to detect bugs in app. In my code I have a lot of if else
+conditions, probably there is a possibility to implement same solution with less amount, but I came
+to this solution, since I am not familiar with all specific aspects of android. I am also not sure
+about the amount of comments, if I had to explain almost every line of code. I explained main steps
+and methods.
+ If I had more time, I could implement more functions for calculator. Also, there is one thing I
+ am not sure how to do now, when you switch from light theme to dark one, the activity is restarted
+ and if something was typed in screen view, it disappears. I read that there is a possibility to
+ switch without restarting the activity, so if I had more time, I could dig into this aspect also.
+ For running app, I used virtual device Nexus 5X API 28. As an IDE I used Android Studio 3.3.1.

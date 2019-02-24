@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--moon image is pressed then dracula/dark mode is activated and sun image is displayed-->
+        <item android:state_activated="true" android:drawable="@drawable/sun" />
+        <item android:drawable="@drawable/moon"/>
+    </selector>
